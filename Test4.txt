@@ -1,0 +1,85 @@
+1. What is the difference between a list, tuple, and set in Python? Provide examples.
+2. How does Python manage memory? Explain the concept of garbage collection.
+3. Write a function to find the second-largest number in a given list.
+4. Explain the difference between deepcopy() and copy() with an example.
+5. Given a dictionary, write a Python script to sort it by values in descending order.
+6. How does Python handle exceptions internally? Write a custom exception class.
+7. Define mean, median, and mode. When would you prefer the median over the mean?
+8. What are the advantages and disadvantages of using standard deviation versus interquartile range?
+9. Explain the difference between a population and a sample. Why do we use sampling?
+10. What is the difference between independent and mutually exclusive events? Provide examples.
+11. If a fair die is rolled twice, what is the probability of getting a sum of 7?
+12. What is the p-value? How is it used in hypothesis testing?
+13. Explain Type I and Type II errors. Which is more serious in a medical test context?
+14. A sample of 100 people has an average height of 170 cm with a standard deviation of 8 cm. Construct a 95% confidence interval for the population mean.
+15. How do we handle the missing values.
+16. How many sampling techniques are there.., explain them with an examples.
+17. Write a Python program that prints:Hello, World!
+18. Write a function that takes an integer as input and prints whether the number is even or odd.
+19. Write a program that calculates the sum of all numbers from 1 to 100 using a loop.
+20. Given three numbers, write a Python function to find and return the largest of the three
+
+21. Write a function that takes a string as input and returns the string in reverse.
+Example: "python" → "nohtyp"
+
+22. Write a program that prints numbers from 1 to 50:
+If a number is divisible by 3, print "Fizz".
+If a number is divisible by 5, print "Buzz".
+If a number is divisible by both 3 and 5, print "FizzBuzz".
+
+23. Write a function to check if a given word is a palindrome (a word that reads the same backward as forward).
+Example: "racecar" is a palindrome.
+
+24. Write a program that generates a list of squares of numbers from 1 to 10.
+Write a Python function to check if a number is a prime number.
+
+25. Create a Pandas DataFrame from the following dictionary:
+data = {
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 32, 30],
+    'City': ['New York', 'Paris', 'London']
+}
+
+26. Write code to load a CSV file named "data.csv" into a DataFrame and display the first 5 rows.
+
+27. Given a DataFrame df, select the "Name" and "Age" columns.
+28. From a DataFrame df, select rows where the "Age" is greater than 30.
+29. Add a new column "Salary" to a DataFrame with the values [50000, 60000, 55000]
+
+30. Merge the following two DataFrames on the "ID" column:
+df1 = pd.DataFrame({'ID': [1, 2, 3], 'Name': ['Alice', 'Bob', 'Charlie']})
+df2 = pd.DataFrame({'ID': [1, 2, 4], 'Score': [90, 85, 88]})
+
+31. Create a DataFrame using the following lists:
+names = ['Alice', 'Bob', 'Charlie', 'David']
+ages = [23, 35, 30, 29]
+cities = ['New York', 'Paris', 'London', 'Berlin']
+
+32. Given a DataFrame df:
+
+Display the first 3 rows using a Pandas function.
+Display the last 2 rows.
+
+33. Use Pandas methods to find the following for the "Age" column:
+Mean
+Median
+Minimum and Maximum
+
+34. Select the third row of the DataFrame using iloc
+
+35. Select rows where "Age" is greater than 30 AND "City" is "London"
+
+36. Given the following DataFrame:
+
+37. data = {
+    'Product': ['A', 'A', 'B', 'B'],
+    'Month': ['Jan', 'Feb', 'Jan', 'Feb'],
+    'Sales': [200, 220, 150, 180]
+}
+
+Pivot the data to show Months as columns and Products as rows.
+
+38. How do find the number of rows and columns in a dataframe.
+39. How do you read the excel file using pandas
+40. Write a list comprehension of finding the even number in a given list.
+
